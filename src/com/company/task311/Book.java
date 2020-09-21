@@ -5,6 +5,9 @@ public class Book {
     private String author;
     private Status status;
 
+    public Book() {
+    }
+
     public Book(String title, String author, Status status) {
         this.title = title;
         this.author = author;
